@@ -36,7 +36,7 @@
 ### 1️⃣ Clone the repo
 
 ```bash
-git clone https://github.com/your-username/buildfy-converter.git
+git clone https://github.com/proxlight/buildfy-converter.git
 cd buildfy-converter
 ```
 
