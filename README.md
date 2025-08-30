@@ -1,24 +1,119 @@
-Py App Builder
+# ⚡ Buildfy Converter
 
-A modern CustomTkinter GUI that wraps PyInstaller to package a .py script into a platform-native executable.
+> 🎯 A modern GUI-based tool (built with [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)) to convert your Python `.py` files into **standalone executables** (`.exe` on Windows, `.app` on macOS, binaries on Linux) using **PyInstaller**.
 
-- On Windows: .exe
-- On macOS: .app
+---
 
-Setup
-- Create a virtual environment
-- Activate it
-- Install requirements with: pip install -r requirements.txt
-- Run the app: python main.py
+## ✨ Features
 
-Usage
-- Select your .py file
-- Optionally set app name and icon (.ico on Windows, .icns on macOS)
-- Choose output directory (defaults to ./dist)
-- Pick options: One-file, Windowed, Clean build
-- Click Build and watch the log
+✅ Convert `.py` → `.exe` (Windows) or `.app` (macOS)
+✅ Sleek dark-mode **CustomTkinter UI**
+✅ One-click packaging with **PyInstaller**
+✅ Choose **App Name**, **Icon**, and **Output Directory**
+✅ Options:
 
-Notes
-- macOS: Windowed produces a .app bundle; One-file is compatible
-- Windows: One-file creates a single .exe; without it, artifacts go under dist/<name>
-- For data files and advanced config, consider a PyInstaller spec file
+* 📦 One-file executable
+* 🖼 Windowed mode (no console)
+* 🧹 Clean build
+  ✅ Live **build logs** in-app
+  ✅ Auto-installs missing dependencies
+  ✅ Cross-platform (Windows, macOS, Linux)
+
+---
+
+## 📸 Preview
+
+![Buildfy Converter UI](https://github.com/Proxlight/Buildfy-Converter/blob/main/Cover.png?raw=true)
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repo
+
+```bash
+git clone https://github.com/Proxlight/Buildfy-Converter.git
+cd Buildfy-Converter
+```
+
+### 2️⃣ Install dependencies
+
+Make sure you have **Python 3.10+** installed.
+
+```bash
+pip install -r requirements.txt
+```
+
+> Dependencies:
+
+* `customtkinter`
+* `pyinstaller`
+
+### 3️⃣ Run Buildfy Converter
+
+```bash
+python buildfy.py
+```
+
+---
+
+## 🛠 Usage
+
+1. Open Buildfy Converter.
+2. Select your `.py` file.
+3. (Optional) Enter app name, icon, and output directory.
+4. Select build options (One File, Windowed, Clean).
+5. Click **Build** → wait while PyInstaller does its magic ✨.
+6. Find your executable inside the `dist/` folder.
+
+---
+
+## 📂 Project Structure
+
+```
+📦 Buildfy-Converter
+ ┣ 📜 buildfy.py        # Main GUI app
+ ┣ 📜 requirements.txt  # Dependencies
+ ┣ 📜 README.md         # This file
+ ┣ 📜 Cover.png         # UI preview
+ ┗ 📂 dist/             # Build outputs (auto-generated)
+```
+
+---
+
+## 🖥 Supported Platforms
+
+* 🪟 Windows → `.exe`
+* 🍎 macOS → `.app`
+* 🐧 Linux → ELF binary
+
+---
+
+## 💡 Roadmap
+
+* [ ] Save logs to file
+* [ ] Progress bar during builds
+* [ ] Preset profiles (CLI app / GUI app)
+* [ ] UPX compression option
+* [ ] Pack Buildfy itself into `.exe` & `.app`
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome!
+If you’d like to add new features or fix bugs, feel free to fork this repo and submit a PR 🚀.
+
+---
+
+## 📜 License
+
+MIT License © 2025 [Proxlight](https://github.com/Proxlight)
+
+---
+
+## 🌟 Support
+
+If you like this project, give it a ⭐ on GitHub — it helps a lot!
+And share it with other Python developers ❤️
+
