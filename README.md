@@ -23,7 +23,7 @@
 
 ## 📸 Preview
 
-[Cover.png](https://github.com/Proxlight/Buildfy-Converter/blob/main/Cover.png)
+![Buildfy Converter UI](https://github.com/Proxlight/Buildfy-Converter/blob/main/Cover.png?raw=true)
 
 ---
 
@@ -32,8 +32,8 @@
 ### 1️⃣ Clone the repo
 
 ```bash
-git clone https://github.com/proxlight/buildfy-converter.git
-cd buildfy-converter
+git clone https://github.com/Proxlight/Buildfy-Converter.git
+cd Buildfy-Converter
 ```
 
 ### 2️⃣ Install dependencies
@@ -71,10 +71,11 @@ python buildfy.py
 ## 📂 Project Structure
 
 ```
-📦 buildfy-converter
+📦 Buildfy-Converter
  ┣ 📜 buildfy.py        # Main GUI app
  ┣ 📜 requirements.txt  # Dependencies
  ┣ 📜 README.md         # This file
+ ┣ 📜 Cover.png         # UI preview
  ┗ 📂 dist/             # Build outputs (auto-generated)
 ```
 
@@ -107,7 +108,7 @@ If you’d like to add new features or fix bugs, feel free to fork this repo and
 
 ## 📜 License
 
-GNU License © 2025 \Proxlight
+MIT License © 2025 [Proxlight](https://github.com/Proxlight)
 
 ---
 
@@ -116,3 +117,6 @@ GNU License © 2025 \Proxlight
 If you like this project, give it a ⭐ on GitHub — it helps a lot!
 And share it with other Python developers ❤️
 
+---
+
+👉 Do you also want me to generate a **`requirements.txt`** file for this repo so new users can install everything with one command?
