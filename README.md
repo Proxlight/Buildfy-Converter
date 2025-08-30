@@ -23,11 +23,7 @@
 
 ## 📸 Preview
 
-*(Insert screenshot of your app here)*
-
-```
-🖼 Screenshot coming soon…  
-```
+[Cover.png](https://github.com/Proxlight/Buildfy-Converter/blob/main/Cover.png)
 
 ---
 
