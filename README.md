@@ -52,7 +52,7 @@ pip install -r requirements.txt
 ### 3️⃣ Run Buildfy Converter
 
 ```bash
-python buildfy.py
+python main.py
 ```
 
 ---
